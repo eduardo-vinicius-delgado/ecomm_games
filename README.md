@@ -7,4 +7,4 @@
 
 ![image](https://github.com/eduardo-vinicius-delgado/ecomm_games/assets/98720392/749be0fb-046f-4f8c-8aac-85052bc10817)
 
-Link: https://eduardo-vinicius-delgado.github.io/spotify-clone/#
+Link: https://eduardo-vinicius-delgado.github.io/ecomm_games
