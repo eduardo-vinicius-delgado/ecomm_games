@@ -1,0 +1,112 @@
+.rodape__conteudo {
+    display: flex;
+    flex-direction: column;
+    background: var(--cor-fundo-verde-degrade);
+    padding: 1rem 1.5rem;
+}
+
+.rodape__conteudo__contato {
+    margin-bottom: 0.8rem;
+}
+
+.rodape__conteudo__contato__lista {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.rodape__conteudo__contato__lista__titulo {
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--cor-fonte-branca);
+}
+
+.rodape__conteudo__contato__lista__link {
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 0.4rem;
+    text-decoration: none;
+    color: var(--cor-fonte-branca);
+    font-weight: 400;
+}
+
+.rodape__conteudo__contato__lista__link:hover {
+    text-decoration: underline;
+}
+
+.rodape__conteudo__manutencao {
+    margin-bottom: 0.8rem;
+}
+
+.rodape__conteudo__manutencao__lista {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.rodape__conteudo__manutencao__lista__titulo {
+    font-weight: 700;
+    color: var(--cor-fonte-branca);
+    text-decoration: none;
+}
+
+.rodape__conteudo__manutencao__lista__link {
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 0.4rem;
+    color: var(--cor-fonte-branca);
+}
+
+.rodape__conteudo__manutencao__lista__link:hover {
+    text-decoration: underline;
+}
+
+.rodape__conteudo__loja__lista {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    color: var(--cor-fonte-branca);
+    font-weight: 400;
+}
+
+.rodape__conteudo__loja__lista__titulo {
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--cor-fonte-branca);
+}
+
+.rodape__conteudo__loja__lista__link {
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 0.4rem;
+    color: var(--cor-fonte-branca);
+}
+
+.rodape__conteudo__loja__lista__link:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape__conteudo {
+        flex-direction: row;
+        gap: 80px;
+        justify-content: center;
+    }
+
+    .rodape__conteudo__contato__lista__titulo,
+    .rodape__conteudo__contato__lista__link,
+    .rodape__conteudo__manutencao__lista__titulo,
+    .rodape__conteudo__manutencao__lista__link,
+    .rodape__conteudo__loja__lista__titulo,
+    .rodape__conteudo__loja__lista__link {
+        display: inline-flex;
+        font-size: 24px;
+        padding: 0.5rem 0;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .rodape__conteudo {
+        gap: 250px;
+    }
+}

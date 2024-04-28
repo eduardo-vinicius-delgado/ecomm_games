@@ -1,0 +1,22 @@
+.principal__carrossel__titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--cor-titulo-verde);
+    margin-bottom: 15px;
+}
+
+.principal__carrossel__componente {
+    background-color: var(--cor-fundo-branco);
+    padding: 1.5rem 0;
+    border-radius: 8px;
+}
+
+.swiper {
+    width: 90%;
+}
+
+.swiper-slide img {
+    width: 100%;
+}

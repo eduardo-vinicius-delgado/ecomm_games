@@ -1,0 +1,110 @@
+@import url("./header.css");
+@import url("./banner.css");
+@import url("./carrossel.css");
+@import url("./newsletter.css");
+@import url("./menu.css");
+@import url("./rodape.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+:root {
+    --cor-fundo-branco: #ffffff;
+    --cor-fundo-cinza: #D6D6D6;
+    --cor-fundo-verde-degrade: linear-gradient(146deg, #266917 0%, #49c72c 59%);
+    --cor-fonte-preta: #000000;
+    --cor-fonte-branca: #FFFFFF;
+    --cor-fonte-cinza-hover: #e2dddd;
+    --cor-titulo-verde: #266917;
+    --cor-fundo-botao: #49c72c;
+    --cor-fundo-botao-hover: #266917;
+
+    --fonte: "Poppins", sans-serif;
+}
+
+body {
+    background-color: var(--cor-fundo-cinza);
+    font-family: var(--fonte);
+    color: var(--cor-fonte-preta);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.banner__carrossel__responsivo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner__carrossel__responsivo__titulo {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .banner__carrossel__responsivo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0rem 1rem 1.5rem 1rem;
+    }
+
+    .principal__banner {
+        display: inline-flex;
+        align-self: center;
+        padding: 3.5rem 1.5rem;
+        width: 40vw;
+    }
+
+    .principal__banner__conteudo__titulo {
+        font-size: 40px;
+    }
+
+    .principal__banner__conteudo__paragrafo {
+        font-size: 24px;
+    }
+
+    .principal__banner__conteudo__botao {
+        font-size: 40px;
+    }
+
+    .principal__banner__imagem {
+        display: flex;
+        justify-content: center;
+    }
+
+    .principal__banner__imagem__img {
+        width: 80%;
+    }
+
+    .principal__carrossel {
+        width: 50vw;
+    }
+
+    .principal__carrossel__titulo {
+        display: none;
+    }
+
+    .banner__carrossel__responsivo__titulo {
+        display: inline-flex;
+        font-size: 56px;
+        align-self: center;
+        padding: 2rem 0 1.5rem 0;
+        color: var(--cor-fonte-branca);
+        font-weight: 700;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .banner__carrossel__responsivo {
+        width: 80vw;
+        align-self: center;
+        gap: 5rem;
+        margin-bottom: 6rem;
+    }
+
+    .banner__carrossel__responsivo__titulo {
+        font-size: 80px;
+        padding: 4rem 0;
+    }
+
+}

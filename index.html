@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duts Jogos</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__conteudo">
+            <nav class="cabecalho__responsivo__desktop">
+                <ul class="cabecalho__responsivo__desktop__menu">
+                    <a href="#" class="cabecalho__responsivo__desktop__menu__link">
+                        <li>Categorias</li>
+                    </a>
+                    <a href="#" class="cabecalho__responsivo__desktop__menu__link">
+                        <li>Favoritos</li>
+                    </a>
+                    <a href="#" class="cabecalho__responsivo__desktop__menu__link">
+                        <li>Carrinho</li>
+                    </a>
+                    <a href="#" class="cabecalho__responsivo__desktop__menu__link">
+                        <li>Sobre nós</li>
+                    </a>
+                </ul>
+            </nav>
+
+            <nav class="cabecalho__conteudo__menu-hamburguer">
+                <input type="checkbox" id="menu" class="cabecalho__conteudo__menu-hamburguer__checkbox">
+                <label for="menu" class="cabecalho__conteudo__menu-hamburguer__rotulo">
+                    <span class="cabecalho__conteudo__menu-hamburguer__rotulo__img"></span>
+                </label>
+                <ul class="cabecalho__conteudo__menu-hamburguer__lista">
+                    <li class="cabecalho__conteudo__menu-hamburguer__lista__item"><a href="#"
+                            class="cabecalho__conteudo__menu-hamburguer__lista__item__link">Categorias</a></li>
+                    <li class="cabecalho__conteudo__menu-hamburguer__lista__item"><a href="#"
+                            class="cabecalho__conteudo__menu-hamburguer__lista__item__link">Favoritos</a></li>
+                    <li class="cabecalho__conteudo__menu-hamburguer__lista__item"><a href="#"
+                            class="cabecalho__conteudo__menu-hamburguer__lista__item__link">Carrinho</a></li>
+                    <li class="cabecalho__conteudo__menu-hamburguer__lista__item"><a href="#"
+                            class="cabecalho__conteudo__menu-hamburguer__lista__item__link">Sobre nós</a></li>
+                    </a>
+                </ul>
+            </nav>
+            <nav class="cabecalho__conteudo__user-logo">
+                <a href="#" class="cabecalho__conteudo__user-logo__ancora">
+                    <img src="./assets/img/Usuario.svg" class="cabecalho__conteudo__user-logo__ancora__img"
+                        alt="Icone do usuário">
+                </a>
+                <a href="#" class="cabecalho__conteudo__user-logo__ancora">
+                    <img src="./assets/img/Logo.svg" class="cabecalho__conteudo__user-logo__ancora__img"
+                        alt="Icone do logo da empresa">
+                    <span class="cabecalho__conteudo__user-logo__ancora__img__nome">Duts Jogos</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="principal">
+
+        <h2 class="banner__carrossel__responsivo__titulo">Principais consoles</h2>
+
+        <div class="banner__carrossel__responsivo">
+            <section class="principal__banner">
+                <div class="principal__banner__conteudo">
+                    <h2 class="principal__banner__conteudo__titulo">PlayStation Portátil</h2>
+                    <p class="principal__banner__conteudo__paragrafo">Conheça o modelo 3000, sucesso de venda no mercado
+                        e diversão garantida</p>
+                    <a href="#" class="principal__banner__conteudo__botao">Conheça aqui</a>
+                </div>
+                <div class="principal__banner__imagem">
+                    <img src="./assets/img/Psp.jpg" class="principal__banner__imagem__img" alt="Imagem do console PSP">
+                </div>
+            </section>
+
+            <section class="principal__carrossel">
+                <h2 class="principal__carrossel__titulo">Principais consoles</h2>
+                <div class="principal__carrossel__componente">
+                    <div class="swiper">
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="./assets/img/ps1.jpg"
+                                    class="principal__carrossel__imagem" alt="Imagem do console PlayStation 1">
+                            </div>
+                            <div class="swiper-slide"><img src="./assets/img/ps2.jpg"
+                                    class="principal__carrossel__imagem" alt="Imagem do console PlayStation 2">
+                            </div>
+                            <div class="swiper-slide"><img src="./assets/img/ps3.jpg"
+                                    class="principal__carrossel__imagem" alt="Imagem do console PlayStation 3">
+                            </div>
+                            <div class="swiper-slide"><img src="./assets/img/ps4.jpg"
+                                    class="principal__carrossel__imagem" alt="Imagem do console PlayStation 4">
+                            </div>
+                            <div class="swiper-slide"><img src="./assets/img/ps5.jpg"
+                                    class="principal__carrossel__imagem" alt="Imagem do console PlayStation 5">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="principal__newsletter">
+            <div class="principal__newsletter__titulo">
+                <h3>Fique por dentro das últimas novidades da loja</h3>
+            </div>
+            <div class="principal__newsletter__input">
+                <input type="email" placeholder="Digite aqui seu e-mail" class="principal__newsletter__input__caixa">
+            </div>
+        </section>
+
+        <div class="banner__carrossel__responsivo">
+            <section class="principal__banner">
+                <div class="principal__banner__conteudo">
+                    <h2 class="principal__banner__conteudo__titulo">Skyrim</h2>
+                    <p class="principal__banner__conteudo__paragrafo">Conheça o melhor jogo já feito... ever!</p>
+                    <a href="#" class="principal__banner__conteudo__botao">Conheça aqui</a>
+                </div>
+                <div class="principal__banner__imagem">
+                    <img src="./assets/img/skyrim.jpg" class="principal__banner__imagem__img skyrim"
+                        alt="Imagem do console PSP">
+                </div>
+            </section>
+
+            <section class="principal__carrossel">
+                <h2 class="principal__carrossel__titulo">Principais jogos</h2>
+                <div class="principal__carrossel__componente">
+                    <div class="swiper">
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="./assets/img/uncharted.jpg"
+                                    class="principal__carrossel__imagem" alt="Imagem do jogo uncharted 1">
+                            </div>
+                            <div class="swiper-slide"><img src="./assets/img/god_of_war.jpg"
+                                    class="principal__carrossel__imagem" alt="Imagem do jogo god of war">
+                            </div>
+                            <div class="swiper-slide"><img src="./assets/img/shadow_of_colossus[.jpg"
+                                    class="principal__carrossel__imagem" alt="Imagem do jogo shadow of the colossus">
+                            </div>
+                            <div class="swiper-slide"><img src="./assets/img/zelda.jpg"
+                                    class="principal__carrossel__imagem" alt="Imagem do zelda tears of the kingdom">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="principal__menu">
+            <div class="principal__menu__conteudo">
+                <ul class="principal__menu__conteudo__lista">
+                    <a href="#" class="principal__menu__conteudo__lista__link">
+                        <li class="principal__menu__conteudo__lista__link__item">Consoles</li>
+                    </a>
+                    <a href="#" class="principal__menu__conteudo__lista__link">
+                        <li class="principal__menu__conteudo__lista__link__item">Jogos</li>
+                    </a>
+                    <a href="#" class="principal__menu__conteudo__lista__link">
+                        <li class="principal__menu__conteudo__lista__link__item">Controles</li>
+                    </a>
+                    <a href="#" class="principal__menu__conteudo__lista__link">
+                        <li class="principal__menu__conteudo__lista__link__item">Manutenção</li>
+                    </a>
+                    <a href="#" class="principal__menu__conteudo__lista__link">
+                        <li class="principal__menu__conteudo__lista__link__item">Trocas</li>
+                    </a>
+                    <a href="#" class="principal__menu__conteudo__lista__link">
+                        <li class="principal__menu__conteudo__lista__link__item">Acessórios em geral</li>
+                    </a>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape__conteudo">
+            <div class="rodape__conteudo__contato">
+                <ul class="rodape__conteudo__contato__lista">
+                    <a href="#" class="rodape__conteudo__contato__lista__titulo">
+                        <li>
+                            Contatos
+                        </li>
+                    </a>
+                    <a href="#" class="rodape__conteudo__contato__lista__link">
+                        <li>
+                            <i class="fa-regular fa-comments"></i>
+                            Converse com um atendente
+                        </li>
+                    </a>
+                    <a href="#" class="rodape__conteudo__contato__lista__link">
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            (11)XXXXX-XXXX
+                        </li>
+                    </a>
+                    <a href="#" class="rodape__conteudo__contato__lista__link">
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            XXXXXXX@GMAIL.COM
+                        </li>
+                    </a>
+                </ul>
+            </div>
+            <div class="rodape__conteudo__manutencao">
+                <ul class="rodape__conteudo__manutencao__lista">
+                    <a href="#" class="rodape__conteudo__manutencao__lista__titulo">
+                        <li>
+                            Manutenção
+                        </li>
+                    </a>
+                    <a href="#" class="rodape__conteudo__manutencao__lista__link">
+                        <li>
+                            Consoles novos
+                        </li>
+                    </a>
+                    <a href="#" class="rodape__conteudo__manutencao__lista__link">
+                        <li>
+                            Consoles antigos
+                        </li>
+                    </a>
+                </ul>
+            </div>
+            <div class="rodape__conteudo__loja">
+                <ul class="rodape__conteudo__loja__lista">
+                    <a href="#" class="rodape__conteudo__loja__lista__titulo">
+                        <li>
+                            Loja
+                        </li>
+                    </a>
+                    <a href="#" class="rodape__conteudo__loja__lista__link">
+                        <li>
+                            Nintendo
+                        </li>
+                    </a>
+                    <a href="#" class="rodape__conteudo__loja__lista__link">
+                        <li>
+                            Xbox
+                        </li>
+                    </a>
+                    <a href="#" class="rodape__conteudo__loja__lista__link">
+                        <li>
+                            Playstation
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // Parâmetros de configuração do Swiper
+            slidesPerView: 1,
+            spaceBetween: 15,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                type: 'progressbar'
+            },
+            autoplay: {
+                delay: 4000,
+            },
+            effect: 'cube',
+            preventInteractionOnTransition: false,
+        });
+    </script>
+</body>
+
+</html>
