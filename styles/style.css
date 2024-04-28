@@ -48,42 +48,6 @@ body {
         padding: 0rem 1rem 1.5rem 1rem;
     }
 
-    .principal__banner {
-        display: inline-flex;
-        align-self: center;
-        padding: 3.5rem 1.5rem;
-        width: 40vw;
-    }
-
-    .principal__banner__conteudo__titulo {
-        font-size: 40px;
-    }
-
-    .principal__banner__conteudo__paragrafo {
-        font-size: 24px;
-    }
-
-    .principal__banner__conteudo__botao {
-        font-size: 40px;
-    }
-
-    .principal__banner__imagem {
-        display: flex;
-        justify-content: center;
-    }
-
-    .principal__banner__imagem__img {
-        width: 80%;
-    }
-
-    .principal__carrossel {
-        width: 50vw;
-    }
-
-    .principal__carrossel__titulo {
-        display: none;
-    }
-
     .banner__carrossel__responsivo__titulo {
         display: inline-flex;
         font-size: 56px;

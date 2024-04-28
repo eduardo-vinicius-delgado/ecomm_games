@@ -66,23 +66,41 @@
     .skyrim {
         padding: 1rem 2rem;
     }
+
+    .principal__banner {
+        display: inline-flex;
+        align-self: center;
+        padding: 3.5rem 1.5rem;
+        width: 40vw;
+    }
+
+    .principal__banner__conteudo__titulo {
+        font-size: 40px;
+    }
+
+    .principal__banner__conteudo__paragrafo {
+        font-size: 24px;
+    }
+
+    .principal__banner__conteudo__botao {
+        font-size: 40px;
+    }
+
+    .principal__banner__imagem {
+        display: flex;
+        justify-content: center;
+    }
+
+    .principal__banner__imagem__img {
+        width: 80%;
+    }
 }
 
-@media screen and (min-width> 1728px) {
+@media screen and (min-width: 1728px) {
     .principal__banner {
         width: 50%;
         box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
         border-radius: 10%;
-    }
-
-    .principal__carrossel {
-        width: 50%;
-        box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
-        border-radius: 5%;
-    }
-
-    .principal__carrossel__componente {
-        border-radius: 5%;
     }
 
     .principal__banner__conteudo__titulo {

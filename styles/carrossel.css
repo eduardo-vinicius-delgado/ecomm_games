@@ -20,3 +20,25 @@
 .swiper-slide img {
     width: 100%;
 }
+
+@media screen and (min-width: 1024px) {
+    .principal__carrossel {
+        width: 50vw;
+    }
+
+    .principal__carrossel__titulo {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .principal__carrossel {
+        width: 50%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+        border-radius: 5%;
+    }
+
+    .principal__carrossel__componente {
+        border-radius: 5%;
+    }
+}
